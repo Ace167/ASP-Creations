@@ -9,7 +9,7 @@ header {
 	background-color: #f0f0f0;
 	padding: 20px;
 	text-align: center;
-	background-image: url("./images/logo.png");
+	background-image: url("/HTML&CSS/images/logo.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -33,16 +33,21 @@ nav ul li {
 	display: inline;
 	margin-right: 15px;
 	padding: 10px;
-	background-color: rgb(30, 16, 233);
+	background-color: rgb(226, 3, 3);
 	border-radius: 5px;
 }
 nav ul li a {
-	color: white;
+	color: rgb(255, 255, 255);
 	text-decoration: none;
 }
 
 nav ul li a:hover {
 	text-decoration: underline;
+	color: rgb(255, 255, 255);
+}
+
+nav ul li:hover {
+	background-color: rgb(173, 0, 29);
 }
 
 footer {
