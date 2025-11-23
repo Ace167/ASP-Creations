@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Courier New", Courier, monospace;
+}
+
+body {
+}
+
+header {
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	flex-wrap: wrap;
+	background-color: #000000;
+	color: white;
+	padding: 1rem;
+}
+
+header img {
+	height: 50px;
+	margin: auto;
+	margin-left: 0;
+}
+
+nav {
+	padding: 20px;
+}
+
+nav button {
+	padding: 10px;
+	width: 100px;
+	background-color: #919191;
+	color: white;
+}
+
+nav button:hover {
+	background-color: #6b6b6b;
+	cursor: pointer;
+}
+
+footer p {
+	text-align: center;
+	padding: 20px;
+}
