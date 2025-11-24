@@ -33,6 +33,7 @@ nav button {
 	width: 100px;
 	background-color: #919191;
 	color: white;
+	box-shadow: rgb(131, 131, 131) 2px 2px 5px;
 }
 
 nav button:hover {
